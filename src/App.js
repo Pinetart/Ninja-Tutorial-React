@@ -1,13 +1,13 @@
 import "./App.css";
+import Navbar from "./UI/Navbar";
+import Home from "./Home";
 
 function App() {
-  const title = "Welcome to the new blog.";
-  const person = { name: "zane", age: 50 };
   return (
     <div className="App">
+      <Navbar />
       <div className="content">
-        <h1>{title}</h1>
-        <p>{person.name}</p>
+        <Home />
       </div>
     </div>
   );
