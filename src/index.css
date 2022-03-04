@@ -109,3 +109,22 @@
 .create button:hover {
   background: #861c3c;
 }
+.not-found {
+  margin: 0px auto;
+  max-width: 500px;
+  text-align: center;
+}
+.not-found p {
+  margin: 10px 0px;
+  font-size: 30px;
+}
+.not-found h2 {
+  margin: 10px 0px;
+  font-size: 80px;
+}
+.not-found a {
+  margin: 10px 0px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #861c3c;
+}
